@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        h4{
+            animation:type 3s infinite steps(30);
+            overflow: hidden;
+            white-space:nowrap;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-right: 4px solid rgb(122, 16, 16);
+            width: 22ch;
+        }
+        @keyframes type{
+            0%{
+                width: 0ch;
+            }
+            100%{
+                width: 22ch;
+            }
+        }
+    </style>
+</head>
+<body>
+   <h4>This is a heading animation</h4>
+</body>
+</html>
